@@ -32,5 +32,23 @@ public class ChatBot {
                 i++;
             }
         }
+        String text = "Let's test your programming knowledge \nWhy do we use methods? \n1. To repeat a statement multiple times. " +
+                "\n2. To decompose a program into several small subroutines. \n3. To determine the execution time jf a program." +
+                "\n4. To interrupt te execution of a program";
+        System.out.println(text);
+        while (true) {
+            Scanner scanner3 = new Scanner(System.in);
+            var num5 = scanner.nextInt();
+            if (num5 < 3) {
+                System.out.println("Please, try again");
+                continue;
+            } else if (num5 > 3) {
+                System.out.println("Please, try again");
+            } else if (num5 == 3) {
+                System.out.println("Great, you right!" +
+                        "\nGoodbye, have a nice day!");
+                break;
+            }
+        }
     }
 }
