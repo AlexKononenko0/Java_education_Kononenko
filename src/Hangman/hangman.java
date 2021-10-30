@@ -11,6 +11,7 @@ public class hangman {
         String Up = str.toUpperCase(Locale.ROOT);
         System.out.println(str + "\n"+str2);
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Guess the word:");
         String response;
         label:
         while (true){
